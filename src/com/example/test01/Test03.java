@@ -23,18 +23,18 @@ public class Test03 {
         System.out.println(list);
 
         // add(int index, E element) 指定位置添加元素
-        list.add(3,66);
+        list.add(3, 66);
         System.out.println(list);
 
         // set(int index, E element) 修改指定位置的元素
-        list.set(3,77);
+        list.set(3, 77);
         System.out.println(list);
 
         // remove(int index)  remove(Object o) 在集合中存入的是Integer类型数据，调用remove方法调用的是 remove(int index) 根据索引下标进行删除元素
         list.remove(2);
-        System.out.println("删除下标为2索引的元素："+list);
+        System.out.println("删除下标为2索引的元素：" + list);
         list.remove("abc");
-        System.out.println("删除元素abc："+list);
+        System.out.println("删除元素abc：" + list);
 
         // get(int index) 根据索引查看元素
         System.out.println(list.get(0));
@@ -56,9 +56,8 @@ public class Test03 {
         System.out.println("------------------------------------------------");
         // 3.迭代器遍历
         Iterator<Object> iterator = list.iterator();
-        while (iterator.hasNext()){
+        while (iterator.hasNext()) {
             System.out.println(iterator.next());
         }
-
     }
 }
