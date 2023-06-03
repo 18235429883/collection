@@ -7,7 +7,7 @@ import java.util.HashSet;
 /**
  * HashSet集合针对不同数据类型的示例
  */
-public class Test6 {
+public class Test06 {
     public static void main(String[] args) {
         // 调用方法set1
         set1();
